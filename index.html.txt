@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bharat Club Sumu - Join Free VIP</title>
+  <style>
+    :root{--accent:#e11d48;--bg:#0f172a;--card:#0b1220}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;background:linear-gradient(180deg,#071021 0%,#021026 100%);color:#e6eef8;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px}
+    .wrap{max-width:820px;width:100%;background:linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01));border-radius:12px;padding:28px;box-shadow:0 8px 30px rgba(2,6,23,0.6)}
+    h1{margin:0 0 8px;font-size:28px;text-align:center;color:#fff}
+    h2{margin:18px 0 6px;font-size:18px;color:#ffd9d9;text-align:center}
+    p.lead{text-align:center;margin:6px 0 18px;color:#cfe7ff}
+    .features{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin:8px 0 18px}
+    .chip{background:rgba(255,255,255,0.04);padding:8px 12px;border-radius:999px;border:1px solid rgba(255,255,255,0.03);font-weight:600}
+    .cta{display:flex;gap:12px;justify-content:center;margin-top:16px;flex-wrap:wrap}
+    .btn{display:inline-block;padding:12px 18px;border-radius:10px;text-decoration:none;font-weight:700}
+    .btn-telegram{background:linear-gradient(90deg,#06b6d4,#0ea5a3);color:#021022}
+    .countdown{margin:18px auto 10px;background:rgba(255,255,255,0.03);padding:14px;border-radius:10px;text-align:center;border:1px solid rgba(255,255,255,0.02)}
+    .proof{margin-top:18px;background:rgba(255,255,255,0.02);padding:12px;border-radius:8px;text-align:center;font-size:14px}
+    footer{opacity:0.7;text-align:center;margin-top:18px;font-size:13px}
+    img.hero{display:block;margin:8px auto 12px;max-width:300px;border-radius:8px}
+    @media(min-width:720px){h1{font-size:34px}}
+  </style>
+</head>
+<body>
+  <div class="wrap" role="main">
+    <!-- Replace the image src with the real image filename from the site if needed -->
+    <img class="hero" src="https://jalwagame.beauty/placeholder-hero.jpg" alt="Winning proof image / hero">
+
+    <h1>100% NUMBER SURE SHOT</h1>
+    <h2>NUMBER SURE SHOT PREDICTION BY JALWA GAME NISHA</h2>
+
+    <p class="lead">Join Free VIP Channel — ✅ 100% Sure Shots — ✅ Complete Loss Recover 100% — ✅ Sure Shots + Free Gifts</p>
+
+    <div class="features">
+      <div class="chip">Join now & get Joining Bonus Upto ₹1000</div>
+      <div class="chip">✅ Earn 5k - 10k Daily</div>
+      <div class="chip">Limited Time Offers</div>
+    </div>
+
+    <div class="cta" aria-label="Primary actions">
+      <!-- The site had a Telegram join link. If you know the exact t.me channel,https://t.me/+73lNf9PoeBU1NGQ1 replace the href below with that full link. -->
+      <a class="btn btn-telegram" href="https://t.me" target="_blank" rel="noopener noreferrer">Join Telegram Now</a>
+      <a class="btn" href="#proof" style="background:transparent;border:1px solid rgba(255,255,255,0.06);color:#dbeafe">View Winning Proof</a>
+    </div>
+
+    <div class="countdown" aria-live="polite">
+      <strong>30-Second Countdown Timer</strong>
+      <div style="font-size:20px;margin-top:8px">⏳ Limited Time: <span id="timer">30s</span> Left!</div>
+    </div>
+
+    <div id="proof" class="proof">
+      <h3 style="margin:0 0 8px">Winning Proof</h3>
+      <p style="margin:0 0 8px">(Images / screenshots shown on original site)</p>
+      <!-- Example placeholder for proof image(s). Replace with real asset URLs. -->
+      <img src="https://jalwagame.beauty/placeholder-proof1.jpg" alt="Proof 1" style="max-width:220px;border-radius:6px;margin:6px">
+    </div>
+
+    <footer>
+      ⚠️ <strong>IMPORTANT:</strong> After clicking, OPEN TELEGRAM and tap "JOIN" inside the app!
+    </footer>
+  </div>
+
+  <script>
+    // Simple 30s countdown (client-side only)
+    (function(){
+      var t = 30;
+      var el = document.getElementById('timer');
+      if(!el) return;
+      function tick(){
+        if(t<=0){ el.textContent = '0s'; return; }
+        t--;
+        el.textContent = t + 's';
+        setTimeout(tick,1000);
+      }
+      setTimeout(tick,1000);
+    })();
+  </script>
+</body>
+</html>
