@@ -1,113 +1,196 @@
 <!doctype html>
-<html lang="en">
+<html lang="hi">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>JALWA GAME NISHA - Join Free VIP</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jalwaa Game — गेमिंग, Mods और Play Now</title>
+  <meta name="description" content="Jalwaa Game — नए गेम्स, gameplays, mods aur downloads. Play now aur viral gaming clips dekho." />
+  <meta name="keywords" content="gaming, games, gameplay, mods, downloads, Hindi gaming" />
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Jalwaa Game",
+    "url": "https://jalwagame.pmkisansamman.com/",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://jalwagame.pmkisansamman.com/?s={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
   <style>
-    :root{--accent:#e11d48;--bg:#0f172a;--card:#0b1220}
-    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;background:linear-gradient(180deg,#071021 0%,#021026 100%);color:#e6eef8;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px}
-    .wrap{max-width:820px;width:100%;background:linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01));border-radius:12px;padding:28px;box-shadow:0 8px 30px rgba(2,6,23,0.6)}
-    h1{margin:0 0 8px;font-size:28px;text-align:center;color:#fff}
-    h2{margin:18px 0 6px;font-size:18px;color:#ffd9d9;text-align:center}
-    p.lead{text-align:center;margin:6px 0 18px;color:#cfe7ff}
-    .features{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin:8px 0 18px}
-    .chip{background:rgba(255,255,255,0.04);padding:8px 12px;border-radius:999px;border:1px solid rgba(255,255,255,0.03);font-weight:600}
-    .cta{display:flex;gap:12px;justify-content:center;margin-top:16px;flex-wrap:wrap}
-    .btn{display:inline-block;padding:12px 18px;border-radius:10px;text-decoration:none;font-weight:700}
-    .btn-telegram{background:linear-gradient(90deg,#06b6d4,#0ea5a3);color:#021022}
-    .countdown{margin:18px auto 10px;background:rgba(255,255,255,0.03);padding:14px;border-radius:10px;text-align:center;border:1px solid rgba(255,255,255,0.02)}
-    .proof{margin-top:18px;background:rgba(255,255,255,0.02);padding:12px;border-radius:8px;text-align:center;font-size:14px}
-    footer{opacity:0.7;text-align:center;margin-top:18px;font-size:13px}
-    img.hero{display:block;margin:8px auto 12px;max-width:300px;border-radius:8px}
-    @media(min-width:720px){h1{font-size:34px}}
-  </style><!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '825111163836700');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=825111163836700&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
+    :root{--bg:#071019;--card:#071825;--muted:#9fb0c6;--accent:#00c2ff;--accent2:#7c4dff}
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,Arial;color:#eaf3ff;background:linear-gradient(180deg,#030410 0%,#061427 100%)}
+    .wrap{max-width:1180px;margin:0 auto;padding:18px}
+
+    header{display:flex;align-items:center;justify-content:space-between;padding:12px 0}
+    .brand{display:flex;gap:12px;align-items:center}
+    .logo{width:56px;height:56px;border-radius:12px;background:linear-gradient(135deg,var(--accent),var(--accent2));display:flex;align-items:center;justify-content:center;font-weight:800;color:#021425}
+    .brand h1{margin:0;font-size:20px}
+    .brand p{margin:0;font-size:12px;color:var(--muted)}
+
+    nav a{color:var(--muted);text-decoration:none;margin-left:16px;font-size:15px}
+
+    .top-search{margin-top:14px;background:transparent;padding:6px;border-radius:12px;display:flex;gap:8px}
+    .top-search input{flex:1;padding:10px 12px;border-radius:10px;border:1px solid rgba(255,255,255,0.03);background:#02101a;color:inherit}
+    .top-search button{padding:10px 14px;border-radius:10px;border:0;background:linear-gradient(90deg,var(--accent),var(--accent2));font-weight:700;color:#02141b}
+
+    .layout{display:grid;grid-template-columns:1fr 320px;gap:18px;margin-top:18px}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.01));padding:12px;border-radius:12px}
+
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+    .game-card{border-radius:10px;overflow:hidden;background:linear-gradient(180deg,#05121a,#091827);cursor:pointer;transition:transform .15s;border:1px solid rgba(255,255,255,0.02)}
+    .game-card:hover{transform:translateY(-6px)}
+    .thumb{width:100%;height:170px;object-fit:cover;background:#021018}
+    .vmeta{padding:10px}
+    .vmeta h3{margin:0;font-size:15px}
+    .vmeta p{margin:6px 0 0 0;color:var(--muted);font-size:13px}
+
+    aside .ad{height:250px;border-radius:10px;background:linear-gradient(90deg, rgba(255,255,255,0.02), transparent);display:flex;align-items:center;justify-content:center;color:var(--muted)}
+    .trending-list{margin-top:12px}
+    .trending-list li{margin:8px 0;color:var(--muted)}
+
+    footer{margin-top:28px;padding:18px;text-align:center;color:var(--muted);font-size:13px}
+
+    .modal{position:fixed;inset:0;display:none;align-items:center;justify-content:center;background:linear-gradient(180deg, rgba(0,0,0,0.6), rgba(0,0,0,0.85));z-index:50}
+    .modal.open{display:flex}
+    .player{width:880px;max-width:95%;background:#02111a;padding:12px;border-radius:12px}
+    .player iframe,.player video{width:100%;border-radius:8px}
+    .player .info{color:var(--muted);margin-top:8px}
+
+    @media (max-width:980px){.layout{grid-template-columns:1fr}.grid{grid-template-columns:repeat(2,1fr)}}
+    @media (max-width:560px){.grid{grid-template-columns:1fr}nav a{display:none}.logo{width:44px;height:44px}}
+    .btn{display:inline-block;padding:8px 12px;border-radius:8px}
+  </style>
 </head>
 <body>
-  <div class="wrap" role="main">
-    <!-- Replace the image src with the real image filename from the site if needed -->
-   <a href="https://ibb.co/1tPH5106" target="_blank" rel="noopener noreferrer" style="display: block; width: 50%; max-width: 400px; margin: 15px auto; border-radius: 10px; overflow: hidden; box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);">
-    <img src="https://i.ibb.co/pBMC8c1y/e3710f29-e73d-47a6-a0be-adcff3ed91e7.jpg" alt="Jalwa Game Nisha Winning Proof" style="width: 100%; height: auto; display: block;">
-</a>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="logo">JG</div>
+        <div>
+          <h1>Jalwaa Game</h1>
+          <p>Play Now • Gameplays • Mods • Downloads</p>
+        </div>
+      </div>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#games">Games</a>
+        <a href="#mods">Mods</a>
+        <a href="#downloads">Downloads</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
 
-<h1 style="color: #FFD700; text-align: center; margin-top: 15px; font-size: 0.8em;">100% NUMBER SURE SHOT</h1>
-<h2 style="color: #ADFF2F; text-align: center; font-size: 0.9em; font-weight: 400;">NUMBER SURE SHOT PREDICTION BY JALWA GAME NISHA</h2>
-<p class="lead" style="color: #FFFFFF; text-align: center; font-size: 1em; font-weight: 500;">
-    Join Free VIP Channel -
-    <br><span style="color: #32CD32;">✅ 100% Sure Shots</span>
-    <br><span style="color: #32CD32;">✅ Complete Loss Recover 100%</span>
-    <br><span style="color: #32CD32;">✅ Sure Shots + Free Gifts</span>
-</p> 
-    
-<a href="https://t.me/+Ab3QKleYSiViZmI1" target="_blank" onclick="fbq('track', 'Lead');" 
-   style="display: inline-block; padding: 12px 30px; background-color: #38A169; color: white; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 18px;">
-    ✈ *ABHI JOIN KAREIN* (Telegram Channel)
-</a>
-  
-    
-    <div class="countdown" aria-live="polite">
-      <strong>10-Second Countdown Timer</strong>
-      <div style="font-size:20px;margin-top:8px">⏳ Limited Time: <span id="timer">8s</span> Left!</div>
+    <div class="top-search card">
+      <form id="searchForm" onsubmit="event.preventDefault(); doSearch();">
+        <input id="q" placeholder="Search games, mods, gameplay..." />
+        <button type="submit">Search</button>
+      </form>
     </div>
 
-    <footer>
-      ⚠️ <strong>IMPORTANT:</strong> After clicking, OPEN TELEGRAM and tap "JOIN" inside the app!BY JALWA GAME 
-    </footer>
+    <div class="layout">
+      <main>
+        <section class="card">
+          <h2 style="margin:0 0 12px 0">Top Games</h2>
+          <div class="grid" id="grid"></div>
+        </section>
+
+        <section id="games" class="card" style="margin-top:14px">
+          <h2 style="margin:0 0 12px 0">Latest Gameplays & Downloads</h2>
+          <div class="grid" id="latestGrid"></div>
+        </section>
+      </main>
+
+      <aside>
+        <div class="card">
+          <div class="ad">Advertisement</div>
+          <div style="height:12px"></div>
+          <h3 style="margin:0 0 8px 0">Popular Tags</h3>
+          <ul class="trending-list">
+            <li>Battle Royale</li>
+            <li>Open World</li>
+            <li>Mods &amp; APKs</li>
+            <li>Shorts & Clips</li>
+          </ul>
+        </div>
+
+        <div class="card" style="margin-top:12px">
+          <h3 style="margin:0 0 8px 0">Quick Links</h3>
+          <div style="display:flex;flex-direction:column;gap:8px;">
+            <a class="btn" href="#">Play Now</a>
+            <a class="btn" href="#">Download APK</a>
+            <a class="btn" href="#">Join Community</a>
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <footer id="contact">© 2025 Jalwaa Game • Demo gaming site. No real downloads provided.</footer>
+  </div>
+
+  <div id="modal" class="modal" onclick="closeModal(event)">
+    <div class="player" role="dialog" aria-modal="true" onclick="event.stopPropagation()">
+      <iframe id="playerIframe" src="" frameborder="0" allowfullscreen></iframe>
+      <div class="info" id="playerInfo"></div>
+    </div>
   </div>
 
   <script>
-    // Simple 30s countdown (client-side only)
-    (function(){
-      var t = 30;
-      var el = document.getElementById('timer');
-      if(!el) return;
-      function tick(){
-        if(t<=0){ el.textContent = '0s'; return; }
-        t--;
-        el.textContent = t + 's';
-        setTimeout(tick,1000);
-      }
-      setTimeout(tick,1000);
-    })();
+    // Demo game data - replace with real assets/paths
+    const demo = [
+      {id:1,title:'Battle Royale: Final Stand', img:'https://placehold.co/800x450/png?text=Battle+Royale', embed:'https://www.youtube.com/embed/2Vv-BfVoq4g', desc:'Epic BR gameplay', views:'2.3M views', time:'2 days ago'},
+      {id:2,title:'Open World Adventure', img:'https://placehold.co/800x450/png?text=Open+World', embed:'https://www.youtube.com/embed/2Vv-BfVoq4g', desc:'Walkthrough + glitches', views:'880K views', time:'4 days ago'},
+      {id:3,title:'Car Chase Mods Pack', img:'https://placehold.co/800x450/png?text=Mods+Pack', embed:'https://www.youtube.com/embed/2Vv-BfVoq4g', desc:'Top mods 2025', views:'540K views', time:'1 week ago'},
+      {id:4,title:'Shorts: Funny Fails', img:'https://placehold.co/800x450/png?text=Shorts', embed:'https://www.youtube.com/embed/2Vv-BfVoq4g', desc:'Viral short clips', views:'430K views', time:'3 days ago'},
+      {id:5,title:'How to install APK', img:'https://placehold.co/800x450/png?text=APK+Guide', embed:'https://www.youtube.com/embed/2Vv-BfVoq4g', desc:'Step-by-step', views:'220K views', time:'7 days ago'},
+      {id:6,title:'Viral Highlights 2025', img:'https://placehold.co/800x450/png?text=Highlights', embed:'https://www.youtube.com/embed/2Vv-BfVoq4g', desc:'Top plays', views:'3.1M views', time:'1 week ago'}
+    ];
+
+    function createCard(v){
+      const el = document.createElement('div'); el.className='game-card';
+      el.innerHTML = `\n        <img class="thumb" src="${v.img}" alt="${escapeHTML(v.title)}" loading="lazy" />\n        <div class="vmeta">\n          <h3>${escapeHTML(v.title)}</h3>\n          <p>${v.views} • ${v.time}</p>\n        </div>\n      `;
+      el.addEventListener('click', ()=> openModal(v));
+      return el;
+    }
+
+    function populate(){
+      const g = document.getElementById('grid'); demo.slice(0,6).forEach(d=> g.appendChild(createCard(d)));
+      const lg = document.getElementById('latestGrid'); demo.concat(demo).slice(0,6).forEach(d=> lg.appendChild(createCard(d)));
+    }
+
+    function doSearch(){
+      const q = document.getElementById('q').value.trim().toLowerCase();
+      const g = document.getElementById('grid'); g.innerHTML='';
+      const res = demo.filter(d=> d.title.toLowerCase().includes(q) || q==='');
+      if(res.length===0){ g.innerHTML = '<div style="padding:18px;color:var(--muted)">Koi result nahi mila.</div>'; return; }
+      res.forEach(r=> g.appendChild(createCard(r)));
+    }
+
+    function openModal(v){
+      const modal = document.getElementById('modal');
+      const iframe = document.getElementById('playerIframe');
+      const info = document.getElementById('playerInfo');
+      iframe.src = v.embed;
+      info.textContent = `${v.title} — ${v.desc}`;
+      modal.classList.add('open');
+    }
+
+    function closeModal(e){
+      const modal = document.getElementById('modal');
+      const iframe = document.getElementById('playerIframe');
+      iframe.src = '';
+      modal.classList.remove('open');
+    }
+
+    function escapeHTML(s){ return s.replace(/[&<>"']/g, c=> ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":"&#39;"})[c]); }
+
+    populate();
   </script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
