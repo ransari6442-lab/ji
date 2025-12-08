@@ -1,187 +1,176 @@
 <!doctype html>
-<html lang="hi">
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Jalwaa Game — गेमिंग, Mods और Play Now</title>
-  <meta name="description" content="Jalwaa Game — नए गेम्स, gameplays, mods aur downloads. Play now aur viral gaming clips dekho." />
-  <meta name="keywords" content="gaming, games, gameplay, mods, downloads, Hindi gaming" />
-  <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "Jalwaa Game",
-    "url": "https://jalwagame.pmkisansamman.com/",
-    "potentialAction": {
-      "@type": "SearchAction",
-      "target": "https://jalwagame.pmkisansamman.com/?s={search_term_string}",
-      "query-input": "required name=search_term_string"
-    }
-  }
-  </script>
+  <title>DUIWIN VIP - Stylish Version</title>
   <style>
-    :root{--bg:#071019;--card:#071825;--muted:#9fb0c6;--accent:#00c2ff;--accent2:#7c4dff}
-    *{box-sizing:border-box}
-    html,body{height:100%}
-    body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,Arial;color:#eaf3ff;background:linear-gradient(180deg,#030410 0%,#061427 100%)}
-    .wrap{max-width:1180px;margin:0 auto;padding:18px}
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{
+      font-family:Inter, sans-serif;
+      display:flex;align-items:center;justify-content:center;
+      min-height:100vh;padding:20px;
 
-    header{display:flex;align-items:center;justify-content:space-between;padding:12px 0}
-    .brand{display:flex;gap:12px;align-items:center}
-    .logo{width:56px;height:56px;border-radius:12px;background:linear-gradient(135deg,var(--accent),var(--accent2));display:flex;align-items:center;justify-content:center;font-weight:800;color:#021425}
-    .brand h1{margin:0;font-size:20px}
-    .brand p{margin:0;font-size:12px;color:var(--muted)}
+      /* Smarter Neon + Gradient + Blur Background */
+      background: radial-gradient(circle at 20% 20%, #3a0ca3 0%, transparent 40%),
+                  radial-gradient(circle at 80% 80%, #00b4d8 0%, transparent 40%),
+                  linear-gradient(135deg,#0f0c29,#302b63,#24243e);
+      background-size:cover;
+    }
 
-    nav a{color:var(--muted);text-decoration:none;margin-left:16px;font-size:15px}
+    /* Stylish Card */
+    .card{
+      width:100%;max-width:900px;padding:40px;
+      border-radius:25px;
+      background:rgba(255,255,255,0.06);
+      backdrop-filter:blur(14px);
+      border:1px solid rgba(255,255,255,0.15);
+      box-shadow:0 0 40px rgba(0,255,255,0.25),0 0 60px rgba(255,0,255,0.18);
+      display:flex;gap:28px;align-items:center;
+      animation:fadeIn 1.2s ease;
+    }
 
-    .top-search{margin-top:14px;background:transparent;padding:6px;border-radius:12px;display:flex;gap:8px}
-    .top-search input{flex:1;padding:10px 12px;border-radius:10px;border:1px solid rgba(255,255,255,0.03);background:#02101a;color:inherit}
-    .top-search button{padding:10px 14px;border-radius:10px;border:0;background:linear-gradient(90deg,var(--accent),var(--accent2));font-weight:700;color:#02141b}
+    /* Profile Glow + Rotating Neon Ring + Pulse */
+    .profile{
+      width:150px;height:150px;border-radius:50%;overflow:hidden;
+      position:relative;
+      border:5px solid rgba(255,255,255,0.5);
+      box-shadow:0 0 40px rgba(0,255,255,0.7),0 0 80px rgba(255,0,255,0.4);
+      animation:pulseGlow 2.2s ease-in-out infinite, rotate3D 6s linear infinite;
+    } 2.2s ease-in-out infinite;
+    }
 
-    .layout{display:grid;grid-template-columns:1fr 320px;gap:18px;margin-top:18px}
-    .card{background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.01));padding:12px;border-radius:12px}
+    @keyframes rotate3D{
+      0%{transform:rotateY(0deg) rotateX(0deg);}
+      50%{transform:rotateY(25deg) rotateX(10deg);} 
+      100%{transform:rotateY(0deg) rotateX(0deg);} 
+    }
 
-    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
-    .game-card{border-radius:10px;overflow:hidden;background:linear-gradient(180deg,#05121a,#091827);cursor:pointer;transition:transform .15s;border:1px solid rgba(255,255,255,0.02)}
-    .game-card:hover{transform:translateY(-6px)}
-    .thumb{width:100%;height:170px;object-fit:cover;background:#021018}
-    .vmeta{padding:10px}
-    .vmeta h3{margin:0;font-size:15px}
-    .vmeta p{margin:6px 0 0 0;color:var(--muted);font-size:13px}
+    @keyframes pulseGlow{
+      0%{box-shadow:0 0 40px rgba(0,255,255,0.6),0 0 80px rgba(255,0,255,0.4);transform:scale(1);}
+      50%{box-shadow:0 0 70px rgba(0,255,255,1),0 0 120px rgba(255,0,255,0.7);transform:scale(1.05);}
+      100%{box-shadow:0 0 40px rgba(0,255,255,0.6),0 0 80px rgba(255,0,255,0.4);transform:scale(1);} 
+    }
 
-    aside .ad{height:250px;border-radius:10px;background:linear-gradient(90deg, rgba(255,255,255,0.02), transparent);display:flex;align-items:center;justify-content:center;color:var(--muted)}
-    .trending-list{margin-top:12px}
-    .trending-list li{margin:8px 0;color:var(--muted)}
+    /* Neon rotating ring */
+    .profile::before{
+      content:"";
+      position:absolute;inset:-8px;
+      border-radius:50%;
+      background:conic-gradient(#ff00ea,#00eaff,#00ff73,#ffb800,#ff00ea);
+      animation:spin 4s linear infinite;
+      z-index:-1;
+      filter:blur(3px);
+    }
 
-    footer{margin-top:28px;padding:18px;text-align:center;color:var(--muted);font-size:13px}
+    /* Second rainbow glow ring */
+    .profile::after{
+      content:"";
+      position:absolute;inset:-15px;
+      border-radius:50%;
+      background:conic-gradient(red,orange,yellow,green,cyan,blue,violet,red);
+      animation:spin2 6s linear infinite reverse;
+      z-index:-2;
+      filter:blur(6px);
+      opacity:0.85;
+    }
 
-    .modal{position:fixed;inset:0;display:none;align-items:center;justify-content:center;background:linear-gradient(180deg, rgba(0,0,0,0.6), rgba(0,0,0,0.85));z-index:50}
-    .modal.open{display:flex}
-    .player{width:880px;max-width:95%;background:#02111a;padding:12px;border-radius:12px}
-    .player iframe,.player video{width:100%;border-radius:8px}
-    .player .info{color:var(--muted);margin-top:8px}
+    @keyframes spin{from{transform:rotate(0deg);}to{transform:rotate(360deg);}}
+    @keyframes spin2{from{transform:rotate(360deg);}to{transform:rotate(0deg);}}
 
-    @media (max-width:980px){.layout{grid-template-columns:1fr}.grid{grid-template-columns:repeat(2,1fr)}}
-    @media (max-width:560px){.grid{grid-template-columns:1fr}nav a{display:none}.logo{width:44px;height:44px}}
-    .btn{display:inline-block;padding:8px 12px;border-radius:8px}
+    .profile img{width:100%;height:100%;object-fit:cover}
+
+    /* Stylish Heading - Rainbow gradient text */
+    h1{
+      font-size:32px;font-weight:800;margin-bottom:10px;
+      background:linear-gradient(90deg, #ff0080, #ffcd00, #00e5ff, #7b2ff7);
+      -webkit-background-clip:text;color:transparent;
+      text-shadow:0 0 25px rgba(255,255,255,0.4);
+    }
+
+    .subtitle{
+      color:#ffe066;font-size:16px;
+      text-shadow:0 0 10px rgba(255,255,0,0.6);
+      margin-bottom:18px;
+    }
+
+    .features{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:18px}
+
+    /* Rainbow Stylish Pills */
+    .pill{
+      padding:8px 14px;border-radius:50px;font-size:13px;font-weight:700;
+      background:linear-gradient(90deg, red, orange, yellow, green, cyan, blue, violet);
+      box-shadow:0 4px 10px rgba(0,0,0,0.6);
+      border:1px solid rgba(255,255,255,0.3);
+      color:#fff;
+    }
+
+    .badge{
+      background:linear-gradient(90deg,#00eaff,#8a2be2);
+      padding:8px 14px;border-radius:40px;font-weight:700;
+      box-shadow:0 0 12px rgba(0,255,255,0.4);
+    }
+
+    /* Buttons more stylish */
+    .actions{display:flex;gap:12px;margin-top:12px}
+
+    .btn-telegram{
+      background:linear-gradient(90deg,#00c6ff,#0072ff);
+      padding:7px 12px;border-radius:10px;font-size:14px;font-weight:700;
+      box-shadow:0 0 15px rgba(0,153,255,0.7);
+      color:#fff;text-decoration:none;
+      transform:translateY(0);transition:0.2s;
+    }
+    .btn-telegram:hover{transform:translateY(-3px);box-shadow:0 0 25px rgba(0,153,255,1)}
+
+    .btn-join{
+      padding:8px 14px;border-radius:10px;
+      border:1px solid rgba(255,255,255,0.3);
+      color:#fff;text-decoration:none;
+      box-shadow:0 0 10px rgba(255,255,255,0.3);
+      transition:0.2s;
+    }
+    .btn-join:hover{background:rgba(255,255,255,0.15)}
+
+    @keyframes fadeIn{from{opacity:0;transform:scale(0.96);}to{opacity:1;transform:scale(1);}}
+
+    @media(max-width:720px){.card{flex-direction:column;text-align:center;}}
   </style>
 </head>
 <body>
-  <div class="wrap">
-    <header>
-      <div class="brand">
-        <div class="logo">JG</div>
-        <div>
-          <h1>Jalwaa Game</h1>
-          <p>Play Now • Gameplays • Mods • Downloads</p>
-        </div>
+
+  <div class="card">
+    <div class="profile"><img src="https://i.ibb.co/4ncCFzFY/images.png"></div>
+
+    <div class="content">
+      <h1>DUIWIN — Join Free VIP Channel</h1>
+      <div class="subtitle">Join Free VIP Channel — Get Sure Shots, Loss Recovery & Joining Bonus ₹1000.</div>
+
+      <div class="features">
+        <span class="pill">Sure Shots</span>
+        <span class="pill">Loss Recovery</span>
+        <span class="pill">Instant Alerts</span>
+        <span class="pill">Joining Bonus</span>
       </div>
-      <nav>
-        <a href="#">Home</a>
-    
-      </nav>
-    </header>
 
+      <div class="meta"><span class="badge">Exclusive</span><span>Free Join</span></div>
 
-      </form>
-    </div>
-
-    <div class="layout">
-      <main>
-        <section class="card">
-          <h2 style="margin:0 0 12px 0">Top Games</h2>
-          <div class="grid" id="grid"></div>
-        </section>
-
-        <section id="games" class="card" style="margin-top:14px">
-          <h2 style="margin:0 0 12px 0">Latest Gameplays & Downloads</h2>
-          <div class="grid" id="latestGrid"></div>
-        </section>
-      </main>
-
-      <aside>
-        <div class="card">
-          <div class="ad">Advertisement</div>
-          <div style="height:12px"></div>
-          <h3 style="margin:0 0 8px 0">Popular Tags</h3>
-          <ul class="trending-list">
-            <li>play and earn</li>
-            <li>daily upto 1lakh earn</li>
-            <li>Mods &amp; APKs</li>
-            <li>Shorts & Clips</li>
-          </ul>
-        </div>
-
-        <div class="card" style="margin-top:12px">
-          <h3 style="margin:0 0 8px 0">Quick Links</h3>
-          <div style="display:flex;flex-direction:column;gap:8px;">
-            <a class="btn" href="#">Play Now</a>
-            <a class="btn" href="#">Download APK</a>
-            <a class="btn" href="#">Join Community</a>
-          </div>
-        </div>
-      </aside>
-    </div>
-
-    <footer id="contact">© 2025 Jalwaa Game • Demo gaming site. No real downloads provided.</footer>
-  </div>
-
-  <div id="modal" class="modal" onclick="closeModal(event)">
-    <div class="player" role="dialog" aria-modal="true" onclick="event.stopPropagation()">
-      <iframe id="playerIframe" src="" frameborder="0" allowfullscreen></iframe>
-      <div class="info" id="playerInfo"></div>
+      <div class="actions">
+        <a class="btn-telegram" href="https://t.me/" target="_blank">Join Telegram</a>
+        <a class="btn-join" href="#">Copy Invite Link</a>
+      </div>
     </div>
   </div>
 
-  <script>
-    // Demo game data - replace with real assets/paths
-    const demo = [
-      {id:1,title:'click and play: Final Stand', img:'https://placehold.co/800x450/png?text=Battle+Royale', embed:'https://www.youtube.com/embed/2Vv-BfVoq4g', desc:'Epic BR gameplay', views:'2.3M views', time:'2 days ago'},
-   
+<script>
+  document.querySelector('.btn-join').addEventListener('click',function(e){
+    e.preventDefault();
+    const link='https://t.me/';
+    navigator.clipboard.writeText(link);
+    this.textContent='Copied!';
+    setTimeout(()=>this.textContent='Copy Invite Link',1500);
+  });
+</script>
 
-    function createCard(v){
-      const el = document.createElement('div'); el.className='game-card';
-      el.innerHTML = `\n        <img class="thumb" src="${v.img}" alt="${escapeHTML(v.title)}" loading="lazy" />\n        <div class="vmeta">\n          <h3>${escapeHTML(v.title)}</h3>\n          <p>${v.views} • ${v.time}</p>\n        </div>\n      `;
-      el.addEventListener('click', ()=> openModal(v));
-      return el;
-    }
-
-    function populate(){
-      const g = document.getElementById('grid'); demo.slice(0,6).forEach(d=> g.appendChild(createCard(d)));
-      const lg = document.getElementById('latestGrid'); demo.concat(demo).slice(0,6).forEach(d=> lg.appendChild(createCard(d)));
-    }
-
-    function doSearch(){
-      const q = document.getElementById('q').value.trim().toLowerCase();
-      const g = document.getElementById('grid'); g.innerHTML='';
-      const res = demo.filter(d=> d.title.toLowerCase().includes(q) || q==='');
-      if(res.length===0){ g.innerHTML = '<div style="padding:18px;color:var(--muted)">Koi result nahi mila.</div>'; return; }
-      res.forEach(r=> g.appendChild(createCard(r)));
-    }
-
-    function openModal(v){
-      const modal = document.getElementById('modal');
-      const iframe = document.getElementById('playerIframe');
-      const info = document.getElementById('playerInfo');
-      iframe.src = v.embed;
-      info.textContent = `${v.title} — ${v.desc}`;
-      modal.classList.add('open');
-    }
-
-    function closeModal(e){
-      const modal = document.getElementById('modal');
-      const iframe = document.getElementById('playerIframe');
-      iframe.src = '';
-      modal.classList.remove('open');
-    }
-
-    function escapeHTML(s){ return s.replace(/[&<>"']/g, c=> ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":"&#39;"})[c]); }
-
-    populate();
-  </script>
 </body>
 </html>
-
-
-
